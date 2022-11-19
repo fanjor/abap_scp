@@ -1,0 +1,23 @@
+@Metadata.layer: #CORE
+annotate view ZCDS_B_CLIENTE_7088
+  with 
+{
+  //@UI.connectedFields: [{hidden: true}]
+  @UI.lineItem: [{ position: 10, importance: #HIGH }]
+  IdCliente;
+  
+  @UI.lineItem: [{ position: 20, importance: #MEDIUM, label: 'Tipo de Acceso' }]
+  TipoAcceso;
+  
+  @UI.lineItem: [{ position: 30, importance: #HIGH }]
+  Nombre;
+  
+  @UI.lineItem: [{ position: 40, importance: #HIGH }]
+  Apellidos;
+  
+  @UI.lineItem: [{ position: 50, importance: #MEDIUM, label: 'EMail del Cliente' }]
+  Email;
+  
+  @UI.lineItem: [{ position: 60, importance: #LOW, label: 'URL del Cliente' }]
+  Url;
+}

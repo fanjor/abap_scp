@@ -1,0 +1,5 @@
+@EndUserText.label: 'Service Definition  Library - 7088'
+define service ZSD_LIBRARY_7088 {
+  expose ZCDS_I_LIBRARY_7088 as Library;
+  expose ZCDS_B_CLIENTE_7088 as Cliente;
+}
